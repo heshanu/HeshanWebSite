@@ -1,4 +1,4 @@
-import {CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import {CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube, LinkedIn,Medium, GitHub,CreateIcon } from "@mui/icons-material"
 
 export const navlink = [
   {
@@ -269,15 +269,15 @@ export const certificates=[
 ]
 export const social = [
   {
-    icon: <Facebook />,
+    icon: <LinkedIn/>,
+    link:"https://www.linkedin.com/in/heshanu/"
   },
+  
   {
-    icon: <Twitter />,
-  },
-  {
-    icon: <Instagram />,
-  },
-  {
-    icon: <YouTube />,
-  },
+    icon:<Code/>,
+    link:"https://heshanu97.medium.com/"
+  },{
+    icon:<GitHub/>,
+    link:"https://github.com/heshanu"
+  }
 ]
