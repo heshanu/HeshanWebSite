@@ -7,7 +7,8 @@ const Footer = () => {
       <footer>
         {social.map((item, index) => (
           <>
-            <i data-aos='zoom-in'>{item.icon}</i>
+            
+            <a href={item.link}><i data-aos='zoom-in'>{item.icon}</i></a>
           </>
         ))}
         <p data-aos='zoom-in'>All Right Resceved 2024</p>
